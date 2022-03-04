@@ -7,7 +7,7 @@ powerful testbench that is suitable for either a simple FPGA block
 or a complex ASIC.
 
 ## OsvvmLibraries
-The library [OsvvmLibraries](https://github.com/osvvm/OsvvmLibraries) 
+The repository [OsvvmLibraries](https://github.com/osvvm/OsvvmLibraries) 
 contains all of the OSVVM libraries as submodules.   
 
 Download the entire OSVVM model library using git clone with the "--recursive" flag:  
