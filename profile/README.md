@@ -14,6 +14,9 @@ Download the entire OSVVM model library using git clone with the "--recursive" f
         `$ git clone --recursive https://github.com/osvvm/OsvvmLibraries`
 
 ## Submodules
+- [OSVVM Documentation](https://github.com/OSVVM/Documentation) contains 
+  - Documentation for all of OSVVM
+  - To learn OSVVM start by reading the README.rst (displayed at the bottom of the page).
 - [OSVVM utility library](https://github.com/osvvm/osvvm) provides support for: 
   - Transaction-Level Modeling (TbUtilPkg, ResolutionPkg)
   - Constrained Random test generation (RandomPkg)
@@ -38,8 +41,6 @@ Download the entire OSVVM model library using git clone with the "--recursive" f
 - [DpRam](https://github.com/osvvm/DpRam) contains 
   - DpRam behavioral model 
   - DpRam Manager VC to read and write to the DpRam interface
-- [OSVVM Documentation](https://github.com/OSVVM/Documentation) contains 
-  - Documentation for all OSVVM submodules
 - [OSVVM Common Library](https://github.com/osvvm/OSVVM-Common) 
   - Defines OSVVMs Model Independent Transactions (Address Bus and Stream)
   - Required for all OSVVM Verification Components
