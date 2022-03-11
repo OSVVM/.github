@@ -1,4 +1,4 @@
-OSVVM is a VHDL verification methodology that defines a 
+The OSVVM methodology defines a 
 verification framework, VHDL utility library, 
 VHDL Verification component library, and a scripting flow 
 to simplify your FPGA or ASIC verification project from start to finish.
