@@ -6,26 +6,26 @@ OSVVM is simple enough to use on small blocks and powerful enough to
 use on large, complex chips or systems.
 
 One of the goals of OSVVM is to reduce the time spent on verification. 
-OSVVM accomplishes this: 
-- By using the same framework approach for RTL, Core, and Chip level verification, 
+OSVVM accomplishes this by: 
+- Using the same framework approach for RTL, Core, and Chip level verification, 
 we are able to reuse/pre-use verification components and test sequences between the different levels of verification.
-- By using OSVVM's Model Independent transactions, we are able to share test sequences between different components.
-- By using OSVVM's reporting, we are able to facilitate debug by making root cause of failures more readily available.
+- Using OSVVM's Model Independent transactions, we are able to share test sequences between different components.
+- Using OSVVM's reporting, we are able to facilitate debug by making root cause of failures more readily available.
 
 OSVVM is developed by the same VHDL experts who have helped develop VHDL standards.
 
-## OsvvmLibraries
-The repository [OsvvmLibraries](https://github.com/osvvm/OsvvmLibraries) 
+## OsvvmLibraries Repository
+[OsvvmLibraries](https://github.com/osvvm/OsvvmLibraries) 
 contains all of the OSVVM libraries as submodules.   
 
-Download the entire OSVVM model library using git clone with the "--recursive" flag:  
+Download all of OSVVM using git clone with the "--recursive" flag:  
         `$ git clone --recursive https://github.com/osvvm/OsvvmLibraries`
 
-## Submodules
-- [OSVVM Documentation](https://github.com/OSVVM/Documentation) contains 
+## [OSVVM Documentation](https://github.com/OSVVM/Documentation) Repository 
   - Documentation for all of OSVVM
-  - To learn OSVVM start by reading the README.rst (displayed at the bottom of the page).
-- [OSVVM utility library](https://github.com/osvvm/osvvm) provides support for: 
+  - To learn OSVVM start by reading the [README.rst](https://github.com/OSVVM/Documentation#readme)
+## [OSVVM utility library](https://github.com/osvvm/osvvm) Repository
+Provides support for: 
   - Transaction-Level Modeling (TbUtilPkg, ResolutionPkg)
   - Constrained Random test generation (RandomPkg)
   - Functional Coverage with hooks for UCIS coverage database integration (CoveragePkg)
@@ -37,18 +37,19 @@ Download the entire OSVVM model library using git clone with the "--recursive" f
   - Message filtering - Logs (AlertLogPkg)
   - Scoreboards and FIFOs (data structures for verification) (ScoreboardGenericPkg)
   - Memory models (MemoryPkg)
-- [OSVVM Verification Script Library](https://github.com/osvvm/OSVVM-Scripts) 
+## [OSVVM Verification Script Library](https://github.com/osvvm/OSVVM-Scripts) Repository
   - OSVVM's simulator independent scripting approach.  
   - Supports Aldec's Riviera-PRO/Active-HDL, Siemen's QuestaSim/ModelSim, GHDL, Synopsys' VCS, and Cadence's Xcelium
-- [AXI4](https://github.com/osvvm/AXI4) contains: 
+## OSVVM Verification Components
+### [AXI4](https://github.com/osvvm/AXI4) Repository 
   - Axi4 Full Manager, Memory, Subordinate Verification Components
   - Axi4 Lite Manager and Subordinate Verification Components
   - AxiStream Transmitter and Receiver Verification Components
-- [UART](https://github.com/osvvm/UART) contains 
+### [UART](https://github.com/osvvm/UART) Repository 
   - UART Transmitter and Receiver
-- [DpRam](https://github.com/osvvm/DpRam) contains 
+### [DpRam](https://github.com/osvvm/DpRam) Repository 
   - DpRam behavioral model 
   - DpRam Manager VC to read and write to the DpRam interface
-- [OSVVM Common Library](https://github.com/osvvm/OSVVM-Common) 
+### [OSVVM Common Library](https://github.com/osvvm/OSVVM-Common) Repository
   - Defines OSVVMs Model Independent Transactions (Address Bus and Stream)
   - Required for all OSVVM Verification Components
