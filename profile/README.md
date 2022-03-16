@@ -14,7 +14,7 @@ we are able to reuse/pre-use verification components and test sequences between 
 
 OSVVM is developed by the same VHDL experts who have helped develop VHDL standards.
 
-## [OsvvmLibraries Repository] (https://github.com/osvvm/OsvvmLibraries) 
+## [OsvvmLibraries Repository](https://github.com/osvvm/OsvvmLibraries) 
 [OsvvmLibraries](https://github.com/osvvm/OsvvmLibraries) 
 contains all of the OSVVM libraries as submodules.   
 
