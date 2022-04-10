@@ -52,9 +52,7 @@ The OSVVM Utility library implements verification capabilities that are simple t
   - Message filtering - Logs (AlertLogPkg)
   - Scoreboards and FIFOs (data structures for verification) (ScoreboardGenericPkg)
   - Memory models (MemoryPkg)
-  
-For details see the [OSVVM Utility Library README](https://github.com/osvvm/osvvm#readme).
-  
+   
 ## [OSVVM Verification Script Library Repository](https://github.com/osvvm/OSVVM-Scripts)
   - OSVVM's simulator independent scripting approach.  
   - Supports Aldec's Riviera-PRO/Active-HDL, Siemen's QuestaSim/ModelSim, GHDL, Synopsys' VCS, and Cadence's Xcelium
@@ -69,7 +67,7 @@ The library currently contains the following repositories:
     - Required for all OSVVM Verification Components
     - Defines OSVVMs Model Independent Transactions (Address Bus and Stream)
   - [AXI4 Repository](https://github.com/osvvm/AXI4#readme) 
-    - Axi4 Full Manager, Memory, Subordinate Verification Components
+    - Axi4 Full Manager (burst), Memory (burst), Subordinate Verification Components
     - Axi4 Lite Manager and Subordinate Verification Components
     - AxiStream Transmitter and Receiver Verification Components
   - [UART Repository](https://github.com/osvvm/UART#readme) 
