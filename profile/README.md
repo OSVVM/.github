@@ -30,15 +30,17 @@ OSVVM is available as either a git repository
 or zip file from [osvvm.org Downloads Page](https://osvvm.org/downloads).
 
 On GitHub, all OSVVM libraries are a submodule of the repository OsvvmLibraries. Download all OSVVM libraries using git clone with the “–recursive” flag:
-        `$ git clone --recursive https://github.com/osvvm/OsvvmLibraries`
+```    
+  $ git clone --recursive https://github.com/osvvm/OsvvmLibraries
+```
         
 ## Run The Demos
 A great way to get oriented with OSVVM is to run the demos.
 For directions on running the demos, see [OSVVM Scripts](https://github.com/osvvm/OSVVM-Scripts#readme).
 
 
-## [OSVVM Utility Library Repository](https://github.com/osvvm/osvvm) 
-The OSVVM Utility library implements verification capabilities such as:
+## [OSVVM Utility Library Repository](https://github.com/osvvm/osvvm#readme) 
+The OSVVM Utility library implements verification capabilities that are simple to use and feel like built-in language features.  These include:   
   - Transaction-Level Modeling (TbUtilPkg, ResolutionPkg)
   - Constrained Random test generation (RandomPkg)
   - Functional Coverage with hooks for UCIS coverage database integration (CoveragePkg)
@@ -56,17 +58,22 @@ For details see the [OSVVM Utility Library README](https://github.com/osvvm/osvv
 ## [OSVVM Verification Script Library Repository](https://github.com/osvvm/OSVVM-Scripts)
   - OSVVM's simulator independent scripting approach.  
   - Supports Aldec's Riviera-PRO/Active-HDL, Siemen's QuestaSim/ModelSim, GHDL, Synopsys' VCS, and Cadence's Xcelium
-## OSVVM Verification Components
-OSVVM Verification components are all independent git repositories. 
-### [OSVVM Common Library Repository](https://github.com/osvvm/OSVVM-Common)
-  - Defines OSVVMs Model Independent Transactions (Address Bus and Stream)
-  - Required for all OSVVM Verification Components
-### [AXI4 Repository](https://github.com/osvvm/AXI4) 
-  - Axi4 Full Manager, Memory, Subordinate Verification Components
-  - Axi4 Lite Manager and Subordinate Verification Components
-  - AxiStream Transmitter and Receiver Verification Components
-### [UART Repository](https://github.com/osvvm/UART) 
-  - UART Transmitter and Receiver
-### [DpRam Repository](https://github.com/osvvm/DpRam) 
-  - DpRam behavioral model 
-  - DpRam Manager VC to read and write to the DpRam interface
+  
+## The OSVVM Verification Component Libraries
+The OSVVM Verification Component Libraries are a growing set of 
+verification components commonly used for FPGA and ASIC verification.
+Each family of verification components is a separate git repository. 
+The library currently contains the following repositories:
+
+  - [OSVVM Common Library Repository](https://github.com/osvvm/OSVVM-Common#readme)
+    - Required for all OSVVM Verification Components
+    - Defines OSVVMs Model Independent Transactions (Address Bus and Stream)
+  - [AXI4 Repository](https://github.com/osvvm/AXI4#readme) 
+    - Axi4 Full Manager, Memory, Subordinate Verification Components
+    - Axi4 Lite Manager and Subordinate Verification Components
+    - AxiStream Transmitter and Receiver Verification Components
+  - [UART Repository](https://github.com/osvvm/UART#readme) 
+    - UART Transmitter and Receiver
+  - [DpRam Repository](https://github.com/osvvm/DpRam) 
+    - DpRam behavioral model 
+    - DpRam Manager VC to read and write to the DpRam interface
