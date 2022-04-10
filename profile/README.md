@@ -1,28 +1,19 @@
-The OSVVM methodology defines a 
-verification framework, VHDL utility library, 
-VHDL Verification component library, and a scripting flow 
-to simplify your FPGA or ASIC verification project from start to finish.
-OSVVM is simple enough to use on small blocks and powerful enough to 
-use on large, complex chips or systems.
-
-OSVVM supports the same capabilities that verification languages
-such as SystemVerilog + UVM support - including transaction level modeling,
-verification components, functional coverage, constrained random tests,
-Intelligent Coverage random tests,
-data structures (such as scoreboards, FIFOs, and Memories),
-error logging and reporting, message filtering, and
-advanced test reporting (HTML and JUnit XML for CI/CD).
+OSVVM is a verification framework, VHDL utility library, 
+VHDL Verification component library, and a scripting flow
+that provides the same capabilities that verification languages
+such as SystemVerilog + UVM support.  
 
 OSVVM is developed by the same VHDL experts who
 have helped develop VHDL standards.
 We have used our expert VHDL skills to create
 advanced verification capabilities that are easy to use.
 
-SynthWorks has been using OSVVM for 25+ years in our
-training classes and consulting work.
-During that time, we have innovated new capabilities
-and evolved our existing ones to increase
-re-use and reduce effort and time spent.
+## Learning OSVVM
+You can find an overview of OSVVM at [osvvm.github.io](https://osvvm.github.io).
+Alternately you can find our pdf documentation at 
+[OSVVM Documentation Repository](https://github.com/OSVVM/Documentation#readme).
+
+You can also learn OSVVM by taking the class, [Advanced VHDL Verification and Testbenches - OSVVM&trade; BootCamp](https://synthworks.com/vhdl_testbench_verification.htm)
 
 ## Download OSVVM 
 OSVVM is available as either a git repository 
@@ -36,15 +27,9 @@ On GitHub, all OSVVM libraries are a submodule of the repository OsvvmLibraries.
 A great way to get oriented with OSVVM is to run the demos.
 For directions on running the demos, see [OSVVM Scripts](https://github.com/osvvm/OSVVM-Scripts#readme).
 
-## OSVVM Documentation
-You can find an overview of OSVVM at [osvvm.github.io](https://osvvm.github.io).   
-Alternately you can find our pdf documentation at 
-[OSVVM Documentation Repository](https://github.com/OSVVM/Documentation#readme).
-
-You can also learn OSVVM by taking the class, [Advanced VHDL Verification and Testbenches - OSVVM&trade; BootCamp](https://synthworks.com/vhdl_testbench_verification.htm)
 
 ## [OSVVM Utility Library Repository](https://github.com/osvvm/osvvm) 
-The OSVVM Utility library implements OSVVM's verification capabilities:
+The OSVVM Utility library implements verification capabilities such as:
   - Transaction-Level Modeling (TbUtilPkg, ResolutionPkg)
   - Constrained Random test generation (RandomPkg)
   - Functional Coverage with hooks for UCIS coverage database integration (CoveragePkg)
