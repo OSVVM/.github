@@ -5,30 +5,46 @@ to simplify your FPGA or ASIC verification project from start to finish.
 OSVVM is simple enough to use on small blocks and powerful enough to 
 use on large, complex chips or systems.
 
-One of the goals of OSVVM is to reduce the time spent on verification. 
-OSVVM accomplishes this by: 
-- Using the same framework approach for RTL, Core, and Chip level verification, 
-we are able to reuse/pre-use verification components and test sequences between the different levels of verification.
-- Using OSVVM's Model Independent transactions, we are able to share test sequences between different components.
-- Using OSVVM's reporting, we are able to facilitate debug by making root cause of failures more readily available.
+OSVVM supports the same capabilities that verification languages
+such as SystemVerilog + UVM support - including transaction level modeling,
+verification components, functional coverage, constrained random tests,
+Intelligent Coverage random tests,
+data structures (such as scoreboards, FIFOs, and Memories),
+error logging and reporting, message filtering, and
+advanced test reporting (HTML and JUnit XML for CI/CD).
 
-OSVVM is developed by the same VHDL experts who have helped develop VHDL standards.
+OSVVM is developed by the same VHDL experts who
+have helped develop VHDL standards.
+We have used our expert VHDL skills to create
+advanced verification capabilities that are easy to use.
 
-## [OsvvmLibraries Repository](https://github.com/osvvm/OsvvmLibraries) 
+SynthWorks has been using OSVVM for 25+ years in our
+training classes and consulting work.
+During that time, we have innovated new capabilities
+and evolved our existing ones to increase
+re-use and reduce effort and time spent.
+
+## Download OSVVM 
+OSVVM is available as either a git repository 
 [OsvvmLibraries](https://github.com/osvvm/OsvvmLibraries) 
-contains all of the OSVVM libraries as submodules.   
+or zip file from [osvvm.org Downloads Page](https://osvvm.org/downloads).
 
-Download all of OSVVM using git clone with the "--recursive" flag:  
+On GitHub, all OSVVM libraries are a submodule of the repository OsvvmLibraries. Download all OSVVM libraries using git clone with the “–recursive” flag:
         `$ git clone --recursive https://github.com/osvvm/OsvvmLibraries`
         
-If you would prefer a .zip file, see [osvvm.org Downloads](https://osvvm.org/downloads)
+## Run The Demos
+A great way to get oriented with OSVVM is to run the demos.
+For directions on running the demos, see [OSVVM Scripts](https://github.com/osvvm/OSVVM-Scripts#readme).
 
-## [OSVVM Documentation Repository](https://github.com/OSVVM/Documentation)  
-  - Documentation for all of OSVVM
-  - To learn OSVVM you can either read [README.rst](https://github.com/OSVVM/Documentation#readme) or take the 
-  class [Advanced VHDL Verification and Testbenches - OSVVM&trade; BootCamp](https://synthworks.com/vhdl_testbench_verification.htm)
+## OSVVM Documentation
+You can find an overview of OSVVM at [osvvm.github.io](https://osvvm.github.io).   
+Alternately you can find our pdf documentation at 
+[OSVVM Documentation Repository](https://github.com/OSVVM/Documentation#readme).
+
+You can also learn OSVVM by taking the class, [Advanced VHDL Verification and Testbenches - OSVVM&trade; BootCamp](https://synthworks.com/vhdl_testbench_verification.htm)
+
 ## [OSVVM Utility Library Repository](https://github.com/osvvm/osvvm) 
-Provides support for: 
+The OSVVM Utility library implements OSVVM's verification capabilities:
   - Transaction-Level Modeling (TbUtilPkg, ResolutionPkg)
   - Constrained Random test generation (RandomPkg)
   - Functional Coverage with hooks for UCIS coverage database integration (CoveragePkg)
@@ -40,6 +56,9 @@ Provides support for:
   - Message filtering - Logs (AlertLogPkg)
   - Scoreboards and FIFOs (data structures for verification) (ScoreboardGenericPkg)
   - Memory models (MemoryPkg)
+  
+For details see the [OSVVM Utility Library README](https://github.com/osvvm/osvvm#readme).
+  
 ## [OSVVM Verification Script Library Repository](https://github.com/osvvm/OSVVM-Scripts)
   - OSVVM's simulator independent scripting approach.  
   - Supports Aldec's Riviera-PRO/Active-HDL, Siemen's QuestaSim/ModelSim, GHDL, Synopsys' VCS, and Cadence's Xcelium
