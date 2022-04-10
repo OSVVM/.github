@@ -1,12 +1,21 @@
 OSVVM is a verification framework, VHDL utility library, 
 VHDL Verification component library, and a scripting flow
-that provides the same capabilities that verification languages
-such as SystemVerilog + UVM support.  
+that simplifies your FPGA or ASIC verification project 
+from start to finish.
+Using these libraries you can create a simple, readable, 
+and powerful testbench that is suitable for either a 
+simple FPGA block or a complex ASIC.
 
 OSVVM is developed by the same VHDL experts who
 have helped develop VHDL standards.
 We have used our expert VHDL skills to create
-advanced verification capabilities that are easy to use.
+advanced verification capabilities that:
+
+- Are simple to use and feel like built-in language features.
+- Maximize reuse and reduce project schedule.
+- Facilitate readabilty and reviewability by the whole team including software and system engineers.
+- Facilitate debug with HTML based Test Suite and Test Case reporting
+- Provide buzz word features including Constrained Random, Functional Coverage, Scoreboards, FIFOs, Memory Models.
 
 ## Learning OSVVM
 You can find an overview of OSVVM at [osvvm.github.io](https://osvvm.github.io).
