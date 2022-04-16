@@ -1,5 +1,5 @@
-OSVVM is a verification framework, VHDL utility library, 
-VHDL Verification component library, and a scripting flow
+OSVVM is a VHDL verification framework, verification utility library, 
+verification component library, and a scripting flow
 that simplifies your FPGA or ASIC verification project 
 from start to finish.
 Using these libraries you can create a simple, readable, 
