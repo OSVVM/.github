@@ -27,7 +27,7 @@ Alternately you can find our pdf documentation at
 
 You can also learn OSVVM by taking the class, [Advanced VHDL Verification and Testbenches - OSVVM&trade; BootCamp](https://synthworks.com/vhdl_testbench_verification.htm)
 
-## Download OSVVM 
+## Download OSVVM Libraries 
 OSVVM is available as either a git repository 
 [OsvvmLibraries](https://github.com/osvvm/OsvvmLibraries) 
 or zip file from [osvvm.org Downloads Page](https://osvvm.org/downloads).
@@ -55,7 +55,9 @@ The OSVVM Utility library implements verification capabilities that are simple t
   - Message filtering - Logs (AlertLogPkg)
   - Scoreboards and FIFOs (data structures for verification) (ScoreboardGenericPkg)
   - Memory models (MemoryPkg)
-   
+  - Test Reporting - Test Suite and Test Case in HTML 
+  - Continuous Integration (CI/CD) Support - with JUnit XML reports
+
 ## [OSVVM Verification Script Library Repository](https://github.com/osvvm/OSVVM-Scripts)
   - OSVVM's simulator independent scripting approach.  
   - Supports Aldec's Riviera-PRO/Active-HDL, Siemen's QuestaSim/ModelSim, GHDL, Synopsys' VCS, and Cadence's Xcelium
