@@ -85,5 +85,9 @@ The library currently contains the following repositories:
   - [Ethernet xMII Repository](https://github.com/osvvm/Ethernet) 
     - Verification components for Ethernet Phy and MAC that support GMII/RGMII/MII/RMII.
 
+## [OSVVM Co-simulation](https://github.com/OSVVM/CoSim#readme)
+OSVVM co-simulation supports running software (C++) in a hardware simulation environment.  
+This includes either writing tests cases in C++ or running C++ models such as instruction set simulators.
+
 ## [OSVVM Documentation](https://github.com/OSVVM/Documentation#readme)
 PDF documentation for all things OSVVM.
