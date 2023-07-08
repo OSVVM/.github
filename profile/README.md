@@ -35,7 +35,6 @@ You can also learn OSVVM by taking the class, [Advanced VHDL Verification and Te
 A great way to get oriented with OSVVM is to run the demos.
 For directions on running the demos, see [OSVVM Scripts](https://github.com/osvvm/OSVVM-Scripts#readme).
 
-
 ## [OsvvmLibraries](https://github.com/osvvm/OsvvmLibraries) 
 OsvvmLibraries contains all other OSVVM repositories as submodules.   If you want everything, this is the one you need to clone.   
 
@@ -59,12 +58,13 @@ that are simple to use and work like built-in language features.
 The OSVVM script library implements
 a common scripting API to run all simulators - 
 including GHDL, NVC, Aldec Riviera-PRO and ActiveHDL, Siemens Questa and ModelSim, Synopsys VCS, and Cadence Xcelium.  
-
+Our motto: "One Script to RUn them ALL"
   
 ## [OSVVM Model Independent Transaction Library](https://github.com/osvvm/OSVVM-Common#readme)
 The Model Independent Transaction (MIT) library (osvvm_common) defines a transaction API (procedures such as read, write, send, get, …) 
 and transaction interface (a record) that simplifies writing verification components and test cases. 
 The MIT library is used (and required) by all OSVVM verification components.
+Usi8ng OSVVM MIT makes verification component deveopment as easy as any "Lite" based approach.
 
 
 ## The OSVVM Verification Component Libraries
